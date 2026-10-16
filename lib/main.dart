@@ -1,10 +1,12 @@
+
 import 'package:flutter/material.dart';
-import 'package:saba_64b/home_page(2).dart';
+import 'package:saba_64b/container_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
@@ -12,9 +14,9 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const ContainerPage(),
     );
   }
-
 }
+
 
